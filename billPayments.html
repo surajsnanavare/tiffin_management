@@ -1,0 +1,228 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mr. Perfect | Mohit'sTiffin</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" class="static-layout" style="background: white;">    
+
+    <nav id="navbar-header" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+                <img src="img/logo.png" alt="" width="250px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="lnr lnr-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <a class="navbar-brand d-flex align-items-center only-desktop" href="index.html">
+                    <img src="img/logo.png" alt="" width="250px">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-between" style="margin-right: -106px;">
+                    <div class="d-flex flex-lg-row flex-column">
+                        <li class="nav-item active">
+                            <a class="nav-link" data-toggle="modal" data-target="#Order"> Order Tiffin</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="myOrders.html">My Orders</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="billPayments.html">Bill Payment</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="logout.html">Logout</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row" style="margin:0px;">
+        <div class="col-lg-12 col-md-12 col-sm-12 mb-4" id="main">
+            <div class="mr_perfect">
+                <div class="container">
+                   <div>
+                       <div class="row" style="mar">
+                            <div class="col-sm-12 col-md-12 col-lg-2">
+                                <h5>
+                                    My Bill Payments
+                                </h5>         
+                            </div>
+                            <!-- <div class="col-sm-12 col-md-12 col-lg-2 pb-2">
+                                <select class="form-control" placeholder="Select Month">
+                                    <option>Select Month</option>
+                                    <option>Jan</option>
+                                    <option>Feb</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>may</option>
+                                    <option>June</option>
+                                    <option>July</option>
+                                    <option>Aug</option>
+                                    <option>Sept</option>
+                                    <option>Oct</option>
+                                    <option>Nov</option>
+                                    <option>Dec</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-2">
+                                <select class="form-control" placeholder="Select Year">
+                                    <option>Select Year</option>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                </select>
+                            </div> -->
+                        </div>
+                       <div class="table-responsive-sm mt-4">          
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th style="text-align:center;">#</th>
+                                    <th>Month</th>
+                                    <th style="text-align: center;">No. Tiffins</th>         
+                                    <th>Amount (In Rs.)</th>
+                                    <th>Transaction Id</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td>January 2020</td>
+                                    <td style="text-align: center;">15</td>
+                                    <td>900 /-</td>
+                                    <td>XNSJD2JHKJ76H</td>
+                                    <td>02/02/2020 3:30PM</td>
+                                    <td><button class="btn btn-sm btn-default" disabled>Paid</button></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td>February 2020</td>
+                                    <td style="text-align: center;">18</td>
+                                    <td>160 /-</td>
+                                    <td>XNSJD2JHKJ76H</td>
+                                    <td>02/03/2020 3:30PM</td>
+                                    <td><button class="btn btn-sm btn-success">Pay Now</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 pt-4 pb-3 mt-5" style="box-shadow:1rem 0.2rem 1rem rgba(0,0,0,.15)!important">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-widget pr-lg-5 pr-0">
+                            <img src="img/logo.png" class="img-fluid footer-logo" alt="">
+                            <p>Need help to boost your business? Connect with  <br> Mr. Perfect <a target="blank" href=" https://surajnanavare.com">www.surajnanavare.com</a></p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3">
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget pt-2 pl-lg-5 pl-0">
+                            <h4>Mohit's Tiffin | Contact</h4>
+                            <p style="margin-bottom:0px;"> <a href="tel:+919623299399"> +91 96232 99399</a></p>
+                            <p style="margin-bottom:0px;"><a href="mailto:surajsnanavare@gmail.com"> surajsnanavare@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <!-- The Order Modal -->
+  <div class="modal fade" id="Order">
+    <div class="modal-dialog" style="max-width: 500px;">
+      <div class="modal-content">
+        <div class="section-content bg-white p-5 shadow">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+ 
+            <div class="heading-section text-center">
+                <h2>
+                    Order Tiffin
+                </h2>
+
+                <span class="subheading">
+                    20 January 2020, 10:20AM
+                </span>
+            </div>
+          
+            <form method="post" name="contact-us" action="">
+                <div class="row">
+
+                    <div class="col-md-12 form-group">
+                        <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" max="100" min="1" placeholder="No. of tiffins" required>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="if any instructions.."></textarea>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Get Subscription</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        </div>
+      </div>
+  </div>
+  
+
+    <!-- External JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="vendor/bootstrap/popper.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js "></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+    <script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/app.min.js "></script>
+
+
+</body>
+
+</html>
